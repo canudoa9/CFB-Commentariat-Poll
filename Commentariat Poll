@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Poll Rankings</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            margin: 20px;
+        }
+        table {
+            margin: 0 auto;
+            width: 90%;
+            border-collapse: collapse;
+            background-color: white;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        td {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Commentariat Poll: Week 9</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Rank</th>
+                <th>Football Nerds</th>
+                <th>CBS 134</th>
+                <th>The Athletic</th>
+                <th>AP Poll</th>
+                <th>Coaches Poll</th>
+                <th>ESPN SOR</th>
+                <th>ESPN Efficiencies</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td>Ohio State</td><td>Oregon</td><td>Oregon</td><td>Oregon</td><td>Oregon</td><td>Georgia</td><td>Ohio State</td></tr>
+            <tr><td>2</td><td>Texas</td><td>Ohio State</td><td>Georgia</td><td>Georgia</td><td>Georgia</td><td>Oregon</td><td>Georgia</td></tr>
+            <tr><td>3</td><td>Ole Miss</td><td>Penn State</td><td>Penn State</td><td>Penn State</td><td>Penn State</td><td>Miami</td><td>Texas</td></tr>
+            <tr><td>4</td><td>Indiana</td><td>Georgia</td><td>Miami</td><td>Ohio State</td><td>Ohio State</td><td>BYU</td><td>Ole Miss</td></tr>
+            <tr><td>5</td><td>Oregon</td><td>Miami</td><td>Ohio State</td><td>Texas</td><td>Miami</td><td>Penn State</td><td>Indiana</td></tr>
+            <tr><td>6</td><td>Tennessee</td><td>Texas</td><td>Texas</td><td>Miami</td><td>Texas</td><td>Iowa State</td><td>Tennessee</td></tr>
+            <tr><td>7</td><td>Miami</td><td>Indiana</td><td>BYU</td><td>Tennessee</td><td>LSU</td><td>LSU</td><td>Clemson</td></tr>
+            <tr><td>8</td><td>Army</td><td>Clemson</td><td>Tennessee</td><td>LSU</td><td>Tennessee</td><td>Texas A&M</td><td>Army</td></tr>
+            <tr><td>9</td><td>LSU</td><td>Iowa State</td><td>LSU</td><td>Clemson</td><td>Clemson</td><td>Pittsburgh</td><td>Oregon</td></tr>
+            <tr><td>10</td><td>Notre Dame</td><td>BYU</td><td>Clemson</td><td>Iowa State</td><td>Iowa State</td><td>Tennessee</td><td>Notre Dame</td></tr>
+            <!-- Add remaining rows here -->
+        </tbody>
+    </table>
+</body>
+</html>
